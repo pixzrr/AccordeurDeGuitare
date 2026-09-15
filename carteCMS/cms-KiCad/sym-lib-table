@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2026-09-04_07-20-15")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2026-09-04_07-20-15.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-04_07-21-49")(type "KiCad")(uri "${KIPRJMOD}/max7426cua_T/KiCADv6/2026-09-04_07-21-49.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-04_07-53-46")(type "KiCad")(uri "${KIPRJMOD}/CD4093BM96/KiCADv6/2026-09-04_07-53-46.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-04_09-04-29")(type "KiCad")(uri "${KIPRJMOD}/ATMEGA8U2_AUR/KiCADv6/2026-09-04_09-04-29.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-04_09-57-54")(type "KiCad")(uri "${KIPRJMOD}/ul_MCIPTG23K-V/KiCADv6/2026-09-04_09-57-54.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-09-04_10-13-27")(type "KiCad")(uri "${KIPRJMOD}/ul_2211S-02G/KiCADv6/2026-09-04_10-13-27.kicad_sym")(options "")(descr ""))
+  (lib (name "quartz")(type "KiCad")(uri "${KIPRJMOD}/Quartz/quartz.kicad_sym")(options "")(descr ""))
+  (lib (name "accordeurSym")(type "KiCad")(uri "${KIPRJMOD}/accordeurSym/accordeurSym.kicad_sym")(options "")(descr ""))
+)
