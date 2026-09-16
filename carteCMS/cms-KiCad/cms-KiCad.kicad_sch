@@ -1327,6 +1327,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 147.32) (xy 34.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44530d85-caa5-4428-afc4-d01193fc00a4")
+	)
+	(wire
+		(pts
 			(xy 36.83 147.32) (xy 43.18 147.32)
 		)
 		(stroke
@@ -1334,16 +1344,6 @@
 			(type default)
 		)
 		(uuid "57c5aba6-ee0b-4a21-9a22-0402db933053")
-	)
-	(wire
-		(pts
-			(xy 34.29 147.32) (xy 31.75 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eca8f2e-3ee2-411f-aee0-54eb11a28035")
 	)
 	(wire
 		(pts
@@ -2033,7 +2033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "accordeurEmp:conn01x02Alim-CTB52022"
 			(at 34.29 142.24 0)
 			(effects
 				(font
@@ -2279,7 +2279,7 @@
 			(uuid "afe23dcc-0d66-408e-b51b-6b99d5b533c9")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
 					(page "2")
 				)
@@ -2337,7 +2337,7 @@
 			(uuid "8d9502a2-678a-44a0-9264-89661f47c6ae")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
 					(page "3")
 				)
