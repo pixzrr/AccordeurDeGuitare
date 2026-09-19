@@ -1695,12 +1695,6 @@
 		(uuid "0219c9a9-b734-42d4-86ef-433184288ffd")
 	)
 	(junction
-		(at 175.26 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc5d4c7-a448-45be-a96f-7d57cb4484e9")
-	)
-	(junction
 		(at 81.28 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1743,12 +1737,6 @@
 		(uuid "86d4f1cd-3cae-4f7e-beb0-6005ff00e7a9")
 	)
 	(junction
-		(at 175.26 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ad195be-1b81-4c7d-807f-f3710ea4af59")
-	)
-	(junction
 		(at 243.84 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1773,16 +1761,16 @@
 		(uuid "b538bdea-fd2e-477d-b1b3-4241deb85fbe")
 	)
 	(junction
+		(at 166.37 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc9da661-2c6f-413f-a4d2-c8221d7fa4a4")
+	)
+	(junction
 		(at 241.3 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3469100-63b3-4f78-a6f6-fe22b5925172")
-	)
-	(junction
-		(at 175.26 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1636c65-451d-4fbb-8cbb-766be981e9ca")
 	)
 	(no_connect
 		(at 207.01 67.31)
@@ -1852,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 175.26 104.14)
+			(xy 166.37 71.12) (xy 166.37 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1952,16 +1940,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 162.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e78cfdc-b21b-49f2-af6c-9ab56a74ebfe")
-	)
-	(wire
-		(pts
 			(xy 125.73 71.12) (xy 125.73 59.69)
 		)
 		(stroke
@@ -1992,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 175.26 101.6)
+			(xy 167.64 101.6) (xy 166.37 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2072,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6ab536-1101-4730-a124-4765dc0201cf")
+	)
+	(wire
+		(pts
 			(xy 127 59.69) (xy 127 55.88)
 		)
 		(stroke
@@ -2099,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "9227078a-1279-4203-8e9d-7f062b9f08df")
-	)
-	(wire
-		(pts
-			(xy 175.26 71.12) (xy 175.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac5f779-310c-48c0-84a0-e64ee6c584f8")
 	)
 	(wire
 		(pts
@@ -2282,7 +2260,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 175.26 71.12)
+			(xy 166.37 101.6) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54ef06b-791d-4ca0-a831-06fe5864ae55")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 175.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2309,16 +2297,6 @@
 			(type default)
 		)
 		(uuid "f39c726c-7642-4d89-8d27-847ff9524117")
-	)
-	(wire
-		(pts
-			(xy 175.26 101.6) (xy 175.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48cc864-bb6e-4cad-a110-8796a27f44d7")
 	)
 	(wire
 		(pts
@@ -2400,7 +2378,7 @@
 	)
 	(hierarchical_label "100xFc"
 		(shape input)
-		(at 175.26 104.14 270)
+		(at 166.37 104.14 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2472,7 +2450,7 @@
 			(uuid "d85dbddd-e70d-4276-8328-aa5976df8917")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "C9")
 					(unit 1)
@@ -2538,7 +2516,7 @@
 			(uuid "fdba8763-4ac4-4308-a7f2-ea8d994eaa6f")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR028")
 					(unit 1)
@@ -2608,7 +2586,7 @@
 			(uuid "afd85f3b-53e0-4a7b-8dc5-196fe56e6a71")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "R5")
 					(unit 1)
@@ -2675,7 +2653,7 @@
 			(uuid "e87014bf-528e-4ceb-ab34-950543cb0598")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR04")
 					(unit 1)
@@ -2743,7 +2721,7 @@
 			(uuid "12d1ec11-ccf4-4d01-8c9c-9314064c5c08")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "R3")
 					(unit 1)
@@ -2810,7 +2788,7 @@
 			(uuid "044f5cf4-49f8-4ab3-b32f-257e926bb742")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR013")
 					(unit 1)
@@ -2878,7 +2856,7 @@
 			(uuid "d871c80b-c36b-4c16-924a-b1b7a09d265e")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "C11")
 					(unit 1)
@@ -3034,7 +3012,7 @@
 			(uuid "a1ce27b2-707c-49b0-ad0f-b0e3e9091a0f")
 		)
 		(instances
-			(project ""
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "IC1")
 					(unit 1)
@@ -3100,7 +3078,7 @@
 			(uuid "71cab0fc-cd63-42be-83b6-60580a3d907c")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR07")
 					(unit 1)
@@ -3168,7 +3146,7 @@
 			(uuid "6e0fb73f-adba-4aef-a9f6-3dbf9f63c9ab")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "R4")
 					(unit 1)
@@ -3235,7 +3213,7 @@
 			(uuid "2cbec6e3-5f4e-4b7f-89b1-0fb1d144815e")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "TP4")
 					(unit 1)
@@ -3245,7 +3223,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 176.53 101.6 270)
+		(at 167.64 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3254,7 +3232,7 @@
 		(fields_autoplaced yes)
 		(uuid "53f8b79e-f88e-40c6-a2a7-124692ffb0da")
 		(property "Reference" "TP2"
-			(at 181.61 100.3299 90)
+			(at 172.72 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3241,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 181.61 102.8699 90)
+			(at 172.72 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3250,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 176.53 106.68 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 106.68 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3268,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 176.53 101.6 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3280,7 @@
 			(uuid "ebd5eb27-130f-438d-abf7-7789343aeee6")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "TP2")
 					(unit 1)
@@ -3369,7 +3347,7 @@
 			(uuid "db1f00a0-de3c-444a-a03a-3bef3197a727")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR011")
 					(unit 1)
@@ -3438,7 +3416,7 @@
 			(uuid "165bc43a-6b75-4023-94d3-324917fb35ae")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "R2")
 					(unit 1)
@@ -3504,7 +3482,7 @@
 			(uuid "2319288b-b3f6-4239-82fb-bd597a150a6c")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "TP3")
 					(unit 1)
@@ -3581,7 +3559,7 @@
 			(uuid "afc3f4cf-0b7f-4c6d-8466-e70a82d49fe9")
 		)
 		(instances
-			(project ""
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "U1")
 					(unit 1)
@@ -3648,7 +3626,7 @@
 			(uuid "b3a548c9-a1d7-450a-95b2-d0cf008247e1")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR029")
 					(unit 1)
@@ -3714,7 +3692,7 @@
 			(uuid "14a0ec26-801a-4f11-932b-1d21a6e74e58")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR09")
 					(unit 1)
@@ -3784,7 +3762,7 @@
 			(uuid "1a181a27-8e0f-4bc9-bb7a-47fb32aab5e2")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "MK1")
 					(unit 1)
@@ -3850,7 +3828,7 @@
 			(uuid "43e6b862-57cf-4a1d-8e8a-a650aacdbb7a")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR08")
 					(unit 1)
@@ -3917,7 +3895,7 @@
 			(uuid "9b47820e-ce7f-473a-b909-879702168edc")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR03")
 					(unit 1)
@@ -3983,7 +3961,7 @@
 			(uuid "2ece75eb-8396-4b80-b305-e87624431c7f")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR06")
 					(unit 1)
@@ -4071,7 +4049,7 @@
 			(uuid "6c90f88b-14b4-4cf2-a2d4-09c57d4234c2")
 		)
 		(instances
-			(project ""
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "U3")
 					(unit 1)
@@ -4138,7 +4116,7 @@
 			(uuid "64f837c4-b041-4ff4-a4c7-f65f6f52cd7d")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "TP1")
 					(unit 1)
@@ -4205,7 +4183,7 @@
 			(uuid "4b69c453-8344-4f0c-afd0-37ce6d5d9fef")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR012")
 					(unit 1)
@@ -4273,7 +4251,7 @@
 			(uuid "6b426723-0c5f-41f4-977e-3e21565aaa55")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "C4")
 					(unit 1)
@@ -4341,7 +4319,7 @@
 			(uuid "18eca843-9187-42da-8c0e-909dd2bda1ff")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "C2")
 					(unit 1)
@@ -4407,7 +4385,7 @@
 			(uuid "9f443f90-65bf-4836-8183-bb809f4ed61f")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR05")
 					(unit 1)
@@ -4474,7 +4452,7 @@
 			(uuid "c3763ecc-5f22-42f1-8fbb-7ec5ae3cf85a")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR010")
 					(unit 1)
@@ -4544,7 +4522,7 @@
 			(uuid "95cf738d-2e8b-45ac-bed0-14b6371dbbaa")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "C10")
 					(unit 1)
@@ -4610,7 +4588,7 @@
 			(uuid "a13fc33c-912a-4d9f-ba0f-0a42a2d0ecb5")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "#PWR027")
 					(unit 1)
@@ -4677,7 +4655,7 @@
 			(uuid "e7ca8ef5-85de-4b38-9637-bb116cf9fca9")
 		)
 		(instances
-			(project "projet-KiCad"
+			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65/3402a500-47ed-4144-af75-73ef246582be"
 					(reference "R6")
 					(unit 1)
