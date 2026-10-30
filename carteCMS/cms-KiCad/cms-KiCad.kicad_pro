@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.75,
-          "height": 1.8,
-          "width": 1.8
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -59,22 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "track_dangling|163334990|101000000|dc063e4f-1f60-4530-b837-473cd4d611fa|00000000-0000-0000-0000-000000000000",
-        "track_dangling|164134990|101216320|a1952ad8-7aba-4c4b-9b62-1e67c017c79d|00000000-0000-0000-0000-000000000000",
-        "track_dangling|165092157|94842157|5838f398-a907-4ab4-9b9d-a58ce2ed2065|00000000-0000-0000-0000-000000000000",
-        "track_dangling|165657843|95407843|6709c7d1-8916-4e06-9490-9772ef42bdf7|00000000-0000-0000-0000-000000000000",
-        "track_dangling|167217157|92717157|5f2a85d3-578c-41b4-a8c8-0c4f1aa674d9|00000000-0000-0000-0000-000000000000",
-        "track_dangling|167782843|93282843|c563e48a-58de-4f48-8870-995235373a7c|00000000-0000-0000-0000-000000000000",
-        "track_dangling|177978406|103021594|b17563c9-5048-4056-a4b8-4b11cb3fbecb|00000000-0000-0000-0000-000000000000",
-        "track_dangling|178294093|102205907|e5aa4571-0c19-464f-9802-ad867b6c3ee3|00000000-0000-0000-0000-000000000000",
-        "track_dangling|179925000|110000000|2adf6fca-0d50-4364-8d3a-a8baf250ce7d|00000000-0000-0000-0000-000000000000",
-        "track_dangling|180750000|110000000|3adab411-66e4-4559-82f8-0bf0e337c65f|00000000-0000-0000-0000-000000000000",
-        "track_dangling|181250000|113250000|7b483818-7e10-4333-ab22-11edc3784a87|00000000-0000-0000-0000-000000000000",
-        "track_dangling|181820343|112679657|b1392e6a-6369-44fa-a9d1-6e5a130d3c70|00000000-0000-0000-0000-000000000000",
-        "track_dangling|194900000|92050000|07116718-01ee-47df-bdad-0cec36c66459|00000000-0000-0000-0000-000000000000",
-        "track_dangling|194900000|92850000|25001bb4-724d-4d8e-8118-744e20c32b7b|00000000-0000-0000-0000-000000000000",
-        "track_dangling|197050000|96750000|669481d1-52d3-4d10-9114-2ea4474c5b4e|00000000-0000-0000-0000-000000000000",
-        "track_dangling|197850000|96750000|d667bf6b-066b-4715-af4e-df1a9da6216f|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|133149760|103349760|9e672955-13bb-4db0-bd7c-9d126be49b67|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -582,13 +567,67 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

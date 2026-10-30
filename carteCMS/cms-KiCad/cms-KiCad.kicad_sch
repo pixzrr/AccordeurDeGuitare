@@ -733,30 +733,32 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "accordeurSym:SW_SPDT"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW1"
+				(at -1.2701 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+				(at 1.2699 5.08 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "accordeurEmp:SWITCH_11MA1QS1"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -897,6 +899,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 90)
+					(length 2.54)
+					(name "carcasse1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name "carcasse2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1528,6 +1566,73 @@
 		(uuid "b9331212-f199-40f8-aae5-1a9206003aea")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 36.83 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d7cbfe-f1cc-4b47-815b-d381e09c9bb1")
+		(property "Reference" "#PWR034"
+			(at 30.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66942bca-2ce9-4c4b-991b-c247b973c88b")
+		)
+		(instances
+			(project "cms-KiCad"
+				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 38.1 179.07 90)
 		(unit 1)
@@ -1798,6 +1903,85 @@
 		)
 	)
 	(symbol
+		(lib_id "accordeurSym:SW_SPDT")
+		(at 43.18 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f99caa-a3f7-43dd-8944-78e45c695fee")
+		(property "Reference" "SW5"
+			(at 48.26 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 48.26 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "accordeurEmp:SWITCH_11MA1QS1"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e8d33d5c-4220-4735-9e74-015afd9e996b")
+		)
+		(pin "1"
+			(uuid "5eec4840-88e7-4bc0-b389-6d3aa9770869")
+		)
+		(pin "5"
+			(uuid "24277aad-1e89-49df-90be-545f70dd20b5")
+		)
+		(pin "2"
+			(uuid "86cb46c1-111b-4d5d-9d99-6191f08eac15")
+		)
+		(pin "3"
+			(uuid "81972378-149c-4eff-8577-81b3e918c1ff")
+		)
+		(instances
+			(project "cms-KiCad"
+				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 35.56 190.5 0)
 		(unit 1)
@@ -1866,79 +2050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 43.18 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5531d2a6-2817-4f56-912a-fb051a308707")
-		(property "Reference" "SW1"
-			(at 48.26 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 48.26 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "accordeurEmp:SWITCH_11MA1QS1"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1f38e49-4b7a-4eb0-9a14-4b1d599f1952")
-		)
-		(pin "3"
-			(uuid "ac10cc04-0b6f-4434-bd0d-fa43a82aaf4c")
-		)
-		(pin "1"
-			(uuid "b0b1449a-57ca-4bff-9ab3-9349b83aa1e6")
-		)
-		(instances
-			(project "cms-KiCad"
-				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 53.34 182.88 270)
 		(unit 1)
@@ -2000,6 +2111,73 @@
 			(project "cms-KiCad"
 				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6030ce70-8a8b-438b-8d98-5c3aa4bec63f")
+		(property "Reference" "#PWR035"
+			(at 30.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d90477-e49f-4c79-8a54-5ef7851d9a5f")
+		)
+		(instances
+			(project "cms-KiCad"
+				(path "/59f7da0b-cec5-4ac9-8c02-026d0daeaa65"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2083,10 +2261,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d90c2277-2a82-4a6c-bed4-432d1de0c34c")
 		(property "Reference" "D1"
-			(at 35.56 160.02 0)
+			(at 35.306 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2271,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 35.56 162.56 0)
+			(at 35.306 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
