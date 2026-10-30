@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.75,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -48,11 +48,34 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "track_dangling|163334990|101000000|dc063e4f-1f60-4530-b837-473cd4d611fa|00000000-0000-0000-0000-000000000000",
+        "track_dangling|164134990|101216320|a1952ad8-7aba-4c4b-9b62-1e67c017c79d|00000000-0000-0000-0000-000000000000",
+        "track_dangling|165092157|94842157|5838f398-a907-4ab4-9b9d-a58ce2ed2065|00000000-0000-0000-0000-000000000000",
+        "track_dangling|165657843|95407843|6709c7d1-8916-4e06-9490-9772ef42bdf7|00000000-0000-0000-0000-000000000000",
+        "track_dangling|167217157|92717157|5f2a85d3-578c-41b4-a8c8-0c4f1aa674d9|00000000-0000-0000-0000-000000000000",
+        "track_dangling|167782843|93282843|c563e48a-58de-4f48-8870-995235373a7c|00000000-0000-0000-0000-000000000000",
+        "track_dangling|177978406|103021594|b17563c9-5048-4056-a4b8-4b11cb3fbecb|00000000-0000-0000-0000-000000000000",
+        "track_dangling|178294093|102205907|e5aa4571-0c19-464f-9802-ad867b6c3ee3|00000000-0000-0000-0000-000000000000",
+        "track_dangling|179925000|110000000|2adf6fca-0d50-4364-8d3a-a8baf250ce7d|00000000-0000-0000-0000-000000000000",
+        "track_dangling|180750000|110000000|3adab411-66e4-4559-82f8-0bf0e337c65f|00000000-0000-0000-0000-000000000000",
+        "track_dangling|181250000|113250000|7b483818-7e10-4333-ab22-11edc3784a87|00000000-0000-0000-0000-000000000000",
+        "track_dangling|181820343|112679657|b1392e6a-6369-44fa-a9d1-6e5a130d3c70|00000000-0000-0000-0000-000000000000",
+        "track_dangling|194900000|92050000|07116718-01ee-47df-bdad-0cec36c66459|00000000-0000-0000-0000-000000000000",
+        "track_dangling|194900000|92850000|25001bb4-724d-4d8e-8118-744e20c32b7b|00000000-0000-0000-0000-000000000000",
+        "track_dangling|197050000|96750000|669481d1-52d3-4d10-9114-2ea4474c5b4e|00000000-0000-0000-0000-000000000000",
+        "track_dangling|197850000|96750000|d667bf6b-066b-4715-af4e-df1a9da6216f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -109,21 +132,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_copper_edge_clearance": 0.3,
+        "min_hole_clearance": 0.35,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.19999999999999998,
+        "min_via_annular_width": 0.25,
+        "min_via_diameter": 1.7,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -170,7 +193,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -448,8 +478,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 1.7,
+        "via_drill": 0.7,
         "wire_width": 6
       },
       {
@@ -464,9 +494,9 @@
         "name": "Alimentation",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.4,
+        "via_diameter": 1.7,
+        "via_drill": 0.7,
         "wire_width": 6
       }
     ],
